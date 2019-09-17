@@ -1,0 +1,48 @@
+.carousel{
+    width: 1000px;
+    padding-left: 100px;
+    padding-right: 100px;
+    position: relative;
+}
+.show{
+    width: 1000px;
+    overflow: hidden;
+    font-size: 0;
+    position: relative;
+    height: 310px;
+}
+.holder-big{
+    white-space: nowrap;
+    position: absolute;
+    left: -2500px;
+}
+.holder-l,.holder-m,.holder-r{
+    white-space: nowrap;
+    display: inline-block;
+}
+.holder-l>div,.holder-m>div,.holder-r>div{
+    white-space: nowrap;
+    display: inline-block;
+    text-align: center;
+}
+.holder-l>div img,.holder-m>div img,.holder-r>div img{
+    width: 250px;
+    height: 250px;
+}
+.holder-l>div p,.holder-m>div p,.holder-r>div p{
+    font-size: 18px;
+}
+.prev,.next{
+    width: 100px;
+    height: 250px;
+    position: absolute;
+    background: #000;
+}
+.prev{
+    top: 0;
+    left: 0;
+}
+.next{
+    top: 0;
+    right: 0;
+}
